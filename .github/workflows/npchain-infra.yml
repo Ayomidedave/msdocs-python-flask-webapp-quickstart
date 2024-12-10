@@ -1,4 +1,4 @@
-name: safebank-infra
+name: david-infra
 
 on:
   workflow_dispatch:
@@ -19,7 +19,12 @@ env:
   RESOURCE_GROUP_DEV: BCSAI2024-DEVOPS-STUDENTS-A-DEV
   SUBSCRIPTION_ID_DEV: e0b9cada-61bc-4b5a-bd7a-52c606726b3b
 
-  USER_ALIAS: rorosaga
+  USER_ALIAS: david
+
+# Add this permissions block
+permissions:
+    id-token: write
+    contents: read
 
 jobs:
   build-infra:
