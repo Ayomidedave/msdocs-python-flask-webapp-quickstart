@@ -1,4 +1,4 @@
-name: npchain-infra
+name: david-infra
 
 on:
   workflow_dispatch:
@@ -7,9 +7,9 @@ on:
       - 'Infrastructure/**'
 
 env:
-  RESOURCE_GROUP: aguadamillas_students_1
+  RESOURCE_GROUP: BCSAI2024-DEVOPS-STUDENTS-A-DEV
   SUBSCRIPTION_ID: e0b9cada-61bc-4b5a-bd7a-52c606726b3b
-  USER_ALIAS: npchain
+  USER_ALIAS: david
 
 jobs:
   build:
